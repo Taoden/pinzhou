@@ -1,6 +1,4 @@
-package com.Test;
-
-import jdk.jfr.DataAmount;
+package com.javaArray;
 
 import java.util.*;
 
