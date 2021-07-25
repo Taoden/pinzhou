@@ -37,7 +37,7 @@ public static void main(String[] args) throws IOException {
     // 1.1 指定数据源
 //    FileInputStream fileInputStream=new FileInputStream("D:\\image\\a.jpg");
 //    // 1.2 指定目的地
-//    FileOutputStream fos = new FileOutputStream("test_copy.jpg");
+//    FileOutputStream fos = new FileOutputStream("test.jpg");
 //    // 2.读写数据
 //    // 2.1 定义数组
 //    byte[] b = new byte[1024];
