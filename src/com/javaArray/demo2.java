@@ -1,5 +1,7 @@
 package com.javaArray;
 
+import org.junit.Test;
+
 import java.util.*;
 
 /**
@@ -203,6 +205,7 @@ class TeacherTest {
         getElement(managerList);
     }
     //定义方法，参数为List集合，泛型被限定为Employee，可以接收的泛型为Employee或者子类！
+
     public static void getElement(List<? extends  Employee> list){
         Iterator<? extends Employee> it = list.iterator();
         while (it.hasNext()){

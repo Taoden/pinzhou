@@ -26,7 +26,7 @@ public class demo6 {
          arr[x] = arr[x-2] + arr[x-1];
          }
         // 输出数组中最后一个元素的值，就是第20个月的兔子对数
-         System.out.println("第二十个月兔子的对数是：" + arr[19]);
+         System.out.println("第二十个月兔子的对数是：" + arr[arr.length-1]);
 
 
 
